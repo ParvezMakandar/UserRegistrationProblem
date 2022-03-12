@@ -12,15 +12,15 @@ public class UserRegistrationRegex {
 
     public void firstNameInput() {
 
-        String firstNameInput = "Sandeep";
+        String firstNameInput = "Parvez";
         String regex = "^[[a-z]{1}A-Z]{1,}$";
 
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(firstNameInput);
         if (matcher.matches()) {
-            System.out.println("\n VALID  Name ");
+            System.out.println("\n Valid  Name ");
         } else {
-            System.out.println("\n invalid Name");
+            System.out.println("\n Invalid Name");
         }
     }
 }
