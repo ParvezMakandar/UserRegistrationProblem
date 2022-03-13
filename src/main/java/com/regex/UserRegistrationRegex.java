@@ -4,7 +4,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-public class UserRegistrationRegex {
+public class UserRegistrationRegex
+{
     public static void main(String[] args) {
         UserRegistrationRegex regex = new UserRegistrationRegex();
         regex.firstNameInput();
