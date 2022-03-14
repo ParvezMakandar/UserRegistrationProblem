@@ -74,9 +74,9 @@ public class UserRegistrationRegex
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(passwordInput1);
         if (matcher.matches()) {
-            System.out.println("\n Valid  rule 1 passed " );
+            System.out.println("\n Valid : rule 1 passed " );
         } else {
-            System.out.println("\n Invalid rule 1  not passed ");
+            System.out.println("\n Invalid : rule 2 not passed ");
         }
     }
 
@@ -86,9 +86,9 @@ public class UserRegistrationRegex
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(passwordInput2);
         if (matcher.matches()) {
-            System.out.println("\n Valid  rule 2 passed " );
+            System.out.println("\n Valid : rule 2 passed" );
         } else {
-            System.out.println("\n Invalid rule 2  not passed ");
+            System.out.println("\n Invalid : rule 2 not passed ");
         }
     }
 
@@ -101,6 +101,18 @@ public class UserRegistrationRegex
             System.out.println("\n Valid : rule 3 passed " );
         } else {
             System.out.println("\n Invalid : rule 3 not passed ");
+        }
+    }
+
+    public void passwordInput4() {
+        String passwordInput4 = "ParvezMakandar@72";
+        String regex = "^[a-zA-Z]{8,}[0-9]{2,}[@-_]$";
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(passwordInput4);
+        if (matcher.matches()) {
+            System.out.println("\n Valid : rule 4 passed " );
+        } else {
+            System.out.println("\n Invalid : rule 4 not passed ");
         }
     }
 }
