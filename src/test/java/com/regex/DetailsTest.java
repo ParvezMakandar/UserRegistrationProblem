@@ -1,8 +1,9 @@
 package com.regex;
 
+
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 
 public class DetailsTest {
     @Test
@@ -15,17 +16,17 @@ public class DetailsTest {
 
     @Test
     public void firstname() {
-        String firstname="Sandeep";
+        String firstname="Ragul";
         Assert.assertTrue(ValidateDetailsTest.name(firstname));
     }
     @Test
     public void lastname() {
-        String lastname="Varma";
+        String lastname="Kanna";
         Assert.assertTrue(ValidateDetailsTest.name(lastname));
     }
     @Test
     public void mail() {
-        String mail="sandeepvarma619@gmail.com";
+        String mail="ragulragi619@gmail.com";
         Assert.assertTrue(ValidateDetailsTest.mail(mail));
     }@Test
     public void phonenumber() {
@@ -33,7 +34,7 @@ public class DetailsTest {
         Assert.assertTrue(ValidateDetailsTest.phonenumber(phonenumber));
     }@Test
     public void password() {
-        String password="Varma@1234";
+        String password="Kanna@1234";
         Assert.assertTrue(ValidateDetailsTest.password(password));
     }
 
