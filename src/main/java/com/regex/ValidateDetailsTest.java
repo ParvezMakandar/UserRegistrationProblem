@@ -6,7 +6,6 @@ import java.util.regex.Pattern;
 public class ValidateDetailsTest
 {
     public static String regex;
-
     public static boolean name(String name) {
         regex = "^[A-Z]{1}[a-z]{2,}$";
         Pattern pattern = Pattern.compile(regex);

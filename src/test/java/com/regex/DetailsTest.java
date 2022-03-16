@@ -12,17 +12,17 @@ public class DetailsTest {
 
     @Test
     public void firstname() {
-        String firstname="Zaid";
+        String firstname="Parvez";
         Assert.assertTrue(ValidateDetailsTest.name(firstname));
     }
     @Test
     public void lastname() {
-        String lastname="Mak";
+        String lastname="Makandar";
         Assert.assertTrue(ValidateDetailsTest.name(lastname));
     }
     @Test
     public void mail() {
-        String mail="zaid.72@gmail.com";
+        String mail="parvezhm050@gmail.com";
         Assert.assertTrue(ValidateDetailsTest.mail(mail));
     }@Test
     public void phonenumber() {
@@ -30,7 +30,7 @@ public class DetailsTest {
         Assert.assertTrue(ValidateDetailsTest.phonenumber(phonenumber));
     }@Test
     public void password() {
-        String password="Zaid@72";
+        String password="ParvezMakandar@72";
         Assert.assertTrue(ValidateDetailsTest.password(password));
     }
 
