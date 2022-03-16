@@ -15,6 +15,8 @@ public class UserDetails extends UserRegistrationRegex {
         details.password();
 
     }
+
+
     public static void firstname() {
         System.out.println("\nEnter the first name with first letter capital and name should be minimum 3 letters:");
         first_name = scan.next();

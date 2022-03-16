@@ -5,7 +5,6 @@ import java.util.regex.Pattern;
 
 public class ValidateDetailsTest
 {
-
     public static String regex;
 
     public static boolean name(String name) {

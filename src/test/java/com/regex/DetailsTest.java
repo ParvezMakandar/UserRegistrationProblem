@@ -10,7 +10,6 @@ public class DetailsTest {
         Assert.assertEquals(expectedresult, actualresult);
     }
 
-
     @Test
     public void firstname() {
         String firstname="Zaid";
