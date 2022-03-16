@@ -1,7 +1,9 @@
 package com.regex;
 
-public class HappyOrSad {
-    public static String moodanalyze(String mood){
+public class HappyOrSad
+{
+    public static String moodanalyze(String mood)
+    {
         if(mood.equals("HAPPY"))
             return "HAPPY";
         else

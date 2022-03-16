@@ -3,8 +3,8 @@ package com.regex;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class ValidateDetailsTest {
-
+public class ValidateDetailsTest
+{
     public static String regex;
 
     public static boolean name(String name) {

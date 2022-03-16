@@ -7,8 +7,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-public class UserRegistrationTest {
-
+public class UserRegistrationTest
+{
     public boolean mailregex(String mailID) {
         String regex = "^[a-z0-9]{1,}+([_+-.][a-z0-9]{3,}+)*@[a-z0-9]+.[a-z]{2,3}+(.[a-z]{2,3}){0,1}$";
         Pattern pattern = Pattern.compile(regex);
